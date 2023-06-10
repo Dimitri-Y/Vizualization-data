@@ -13,31 +13,7 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <form class="form">
-      <label>
-        X number (between X " ")
-        <input type="text" name="delay" id="X_number" />
-      </label>
-      <label>
-        number of clusters
-        <input
-          type="number"
-          name="clusters"
-          min="2"
-          max="10"
-          id="number_clusters"
-        />
-      </label>
-      <button type="submit">Create chart</button>
-    </form>
-    <button data-createCentr>Create centroids</button>
-    <div>
-      <p class="centroids"></p>
-    </div>
-    <div class="block-myChart">
-      <canvas id="myChart"></canvas>
-    </div>
-
+    <canvas id="myChart" width="800" height="400"></canvas>
     <script src="index.js" type="module"></script>
   </body>
 </html>
